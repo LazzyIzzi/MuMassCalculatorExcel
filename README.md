@@ -1,5 +1,4 @@
 # NIST_XCOM_V4.xlam
-An NIST-XCOM derived Excel Add-in to Compute Compton, Raleigh, Photoelectric and Pair Production Cross sections
 
 NIST_XCOM_V4 is derived from the NIST XCOM web application used to calculate photon cross sections for scattering, photoelectric absorption and pair production, as well as total attenuation coefficients, for any element, compound (Z ≤ 100), at energies from 1 keV to 100 GeV.
 
