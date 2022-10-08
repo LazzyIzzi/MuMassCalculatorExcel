@@ -1,6 +1,6 @@
-# NIST_XCOM_V4.xlam
+# NIST_XCOM.xlam
 
-NIST_XCOM_V4 is derived from the NIST XCOM web application used to calculate photon cross sections for scattering, photoelectric absorption and pair production, as well as total attenuation coefficients, for any element, compound (Z ≤ 100), at energies from 1 keV to 100 GeV.
+NIST_XCOM is derived from the NIST XCOM web application used to calculate photon cross sections for scattering, photoelectric absorption and pair production, as well as total attenuation coefficients, for any element, compound (Z ≤ 100), at energies from 1 keV to 100 GeV.
 
 Acknowledgement:
 
@@ -12,7 +12,7 @@ Tabulated XCOM data is used with permission
 
 Installation:
 
-Download NIST_XCOM_V4 to the folder where you normally store your Add-ins, usually C:/Users/*UserName*/AppData/Roaming/Microsoft/AddIns
+Download NIST_XCOM.xlam to the folder where you normally store your Add-ins, usually C:/Users/*UserName*/AppData/Roaming/Microsoft/AddIns
 Start Excel
 in the **DEVELOPER** tab, click the *Add-Ins* icon, select Nist_Xcom_V4 from the Add-Ins List, click OK. An **ADD-INS** tab should appear in the Ribbon.
 
