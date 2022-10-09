@@ -12,13 +12,13 @@ Tabulated XCOM data is used with permission
 
 Installation:
 
-Download NIST_XCOM.xlam to the folder where you normally store your Add-ins, usually C:/Users/*UserName*/AppData/Roaming/Microsoft/AddIns
-Start Excel
-in the **DEVELOPER** tab, click the *Add-Ins* icon, select Nist_Xcom_V4 from the Add-Ins List, click OK. An **ADD-INS** tab should appear in the Ribbon.
+Download NIST_XCOM.xlam to the folder where you normally store your Add-ins, usually C:/Users/*UserName*/AppData/Roaming/Microsoft/AddIns. 
+Start Excel. 
+In the **DEVELOPER** tab, click the *Add-Ins* icon, select Nist_Xcom from the Add-Ins List, click OK. An **ADD-INS** tab should appear in the Ribbon.
 
 **Macros:**
 
-Click the **ADD-INS** tab. There should be two macros shown in the ToolBar Commance, *GetSpectrum* and *BeamHardening*.
+Click the **ADD-INS** tab. There should be two macros shown in the ToolBar Commands, *GetSpectrum* and *BeamHardening*.
 Clicking the *GetSpectrum* macro brings up a dialog that will report values and optionally produce a plot of tabulated values for the requested atom or formula and range of energies. Note that the formula format is Atom1:Count1:Atom2:Count2 ...  e.g. Ca:1:C:1:O:3 for CaCO3 calcium carbonate.
 
 Clicking the *BeamHardening* runs a macro that builds a 1D model of a radiography system. The macro shows a dialog that asks for data about the x-ray source, x-ray filter, sample size and composition, detector screen, and energy range to plot. After entering the data, Click **Update Plot** to show a plot of the x-ray intensity vs energy at five points along the x-ray path. The percent beam hardening and photon efficiency are displayed in the plot title. Adjust the x-ray source and filter so that to an acceptable level of beam hardening and photon efficiency. Alternatively, click the **Optimize** button to run the Solver.
@@ -30,11 +30,12 @@ BeamHardening Notes:
 <li>The detector is "ideal" in that the intensity absorbed by the detector screen material is recorded. There are no adjustments for collection efficiency, fluorescent yield, amplification etc.</li>
 </ul>
 
-For more information open [LazzyIzzi's Projects](https://lazzyizzi.github.io/XrayCalculatorExcel.html) in a new tab or window.
-
 **Functions:**
 
 Click the **FORMULAS** tab, click the *Insert Function* icon, scroll down and select the *X-ray Functions* category and select a function from the list to display an input dialog.
+
+For more information open LazzyIzzi's [X-ray Calculator Excel](https://lazzyizzi.github.io/XrayCalculatorExcel.html)  project in a new tab or window.
+
 
 **Special Security Note:**
 Unfortunately, Excel macros have become a hacker tool for distributing malware. NIST_XCOM_V4.xlam is open source. Users are advised to install with Excel macros disabled and to verify that the underlying code is clean before enabling macros.
