@@ -38,6 +38,6 @@ For more information open LazzyIzzi's [X-ray Calculator Excel](https://lazzyizzi
 
 
 **Special Security Note:**
-Unfortunately, Excel macros have become a hacker tool for distributing malware. NIST_XCOM_V4.xlam is open source. Users are advised to install with Excel macros disabled and to verify that the underlying code is clean before enabling macros.
+Unfortunately, Excel macros have become a hacker tool for distributing malware. NIST_XCOM.xlam is open source. Users are advised to install with Excel macros disabled and to verify that the underlying code is clean before enabling macros.
 
 
