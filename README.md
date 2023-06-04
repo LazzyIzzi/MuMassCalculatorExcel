@@ -34,7 +34,7 @@ BeamHardening Notes:
 
 Click the **FORMULAS** tab, click the *Insert Function* icon, scroll down and select the *X-ray Functions* category and select a function from the list to display an input dialog.
 
-For more information open LazzyIzzi's [X-ray Calculator Excel](https://lazzyizzi.github.io/XrayCalculatorExcel.html)  project in a new tab or window.
+For more information open LazzyIzzi's [X-ray Calculator Excel](https://lazzyizzi.github.io/CT_ReconPages/XrayCalculatorExcel.html)  project in a new tab or window.
 
 
 **Special Security Note:**
