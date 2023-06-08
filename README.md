@@ -9,7 +9,7 @@ XCOM: Photon Cross Sections DatabaseNIST Standard Reference Database 8 (XGAM), M
 See https://dx.doi.org/10.18434/T48G6X for detailed information about XCOM
 
 Tabulated XCOM data is used with permission
-
+<br>See https://lazzyizzi.github.io/CT_ReconPages/XrayCalculatorExcel.html for additional installation and use information.
 Installation:
 
 Download NIST_XCOM.xlam to the folder where you normally store your Add-ins, usually C:/Users/*UserName*/AppData/Roaming/Microsoft/AddIns. 
